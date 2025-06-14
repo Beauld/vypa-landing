@@ -1,22 +1,21 @@
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Dashboard from './Dashboard';
 
 function App() {
+  const [page, setPage] = useState('home');
+
+  if (page === 'dashboard') {
+    return <Dashboard onBack={() => setPage('home')} />;
+  }
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Welcome to Vypa.</p>
+        <button onClick={() => setPage('dashboard')}>Open Dashboard</button>
       </header>
     </div>
   );

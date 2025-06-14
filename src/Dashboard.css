@@ -1,0 +1,15 @@
+.Dashboard {
+  padding: 2rem;
+}
+
+.Dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.Dashboard-back {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
