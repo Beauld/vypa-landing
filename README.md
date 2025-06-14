@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Dashboard Demo
+
+The application now includes a very small dashboard similar to the layout on
+[yodeck.com](https://www.yodeck.com). Click **Open Dashboard** on the home page
+to view a list of example sections (Screens, Playlists, Schedules and Settings).
+
 ## Available Scripts
 
 In the project directory, you can run:
